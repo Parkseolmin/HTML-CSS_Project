@@ -1,0 +1,41 @@
+.img {
+    display: block;
+    margin: auto;
+    width: 150px;
+}
+
+.name {
+    color: cadetblue;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.content1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.content1 span {
+    color: cadetblue;
+    font-weight: bold;
+    font-size: 30px
+}
+
+.content2 {
+    background: cadetblue;
+    margin: auto;
+    width: 700px;
+    height: 180px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+.content3 {
+    text-align: center;
+    padding: 20px 150px 20px 150px;
+    color: aliceblue;
+    margin: 0px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}

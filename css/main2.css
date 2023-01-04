@@ -1,0 +1,168 @@
+html {
+    line-height: 1.15;
+}
+
+body {
+    margin: 0px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+
+input[type=text] {
+    width: 200px;
+    height: 35px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+.custom-btn {
+    /*    width: 130px;*/
+    height: 40px;
+    top: 100px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 120px;
+    top: 350px;
+    /*    display: inline-block;*/
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+}
+
+/* 15 */
+.btn-15 {
+    background-color: rgb(159, 84, 32, .3);
+    border: none;
+    z-index: 1;
+}
+
+.btn-15:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: rgb(159, 84, 32, .5);
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    transition: all 0.3s ease;
+}
+
+.btn-15:hover {
+    color: #fff;
+}
+
+.btn-15:hover:after {
+    left: 0;
+    width: 100%;
+}
+
+.btn-15:active {
+    top: 2px;
+}
+
+/* 15 */
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/shoes.jpg);
+    background-size: cover; //div박스에 꽉차게 함
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+    position: relative;
+}
+
+.main-background h4,
+p {
+    text-align: center;
+}
+
+.main-title {
+    color: white;
+    font-size: 40px;
+
+}
+
+.main-content {
+    color: aliceblue;
+    font-weight: 200;
+    margin-top: 100px;
+}
+
+.sub-background {
+    background-color: rgba(204, 204, 204, 0.8);
+    max-width: 800px;
+    width: 70%;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -100px;
+}
+
+.sub-background h4,
+p {
+    color: aliceblue;
+}
+
+.text-input {
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.form-background {
+    background-color: beige;
+    width: 700px;
+    height: 800px;
+    padding: 80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.form-background h4 {
+    color: rgba(102, 102, 102, 0.9);
+}
+
+.form-outline h4 {
+    margin: 5px;
+}
+
+.background {
+    background-color: aliceblue;
+}
+
+
+
+.form-outline div {
+    margin-top: 10px;
+}

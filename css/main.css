@@ -1,0 +1,39 @@
+.container {
+    width: 1000px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.left_img img {
+    width: 100px;
+    float: left;
+}
+
+.name {
+    float: left;
+    margin-left: 10px;
+}
+
+.name h3,
+p {
+    margin-top: 15px;
+}
+
+.content {
+    text-align: justify;
+}
+
+.navbar li {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar a {
+    font-size: 20px;
+    text-decoration: none;
+}
