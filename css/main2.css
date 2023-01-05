@@ -166,3 +166,78 @@ p {
 .form-outline div {
     margin-top: 10px;
 }
+
+.btn {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+}
+
+/* hover -> focus -> active 순으로 */
+/* hover :마우스를 올렸을 때 변경*/
+.btn:hover {
+    background-color: chocolate;
+}
+
+/* focus : 마우스를 누른 뒤 상태 변경*/
+.btn:focus {
+    background-color: gray;
+}
+
+/* active : 마우스를 누르고 있을 때 변경*/
+.btn:active {
+    background-color: brown;
+}
+
+
+
+.input-test {
+    font-size: 20px;
+
+}
+
+.input-test:focus {
+    border: 6px solid red;
+}
+
+.custom-link {
+    text-decoration: none;
+}
+
+.custom-link:link {
+    color: red;
+}
+
+.custom-link:visited {
+    color: green;
+}
+
+.form-title {
+    font-size: 35px;
+}
+
+.form-textarea {
+    width: 92%;
+    height: 300px;
+}
+
+.form-subscribe_box {
+    margin-top: 25px;
+    float: left;
+}
+
+.form-input {
+    height: 15px;
+    width: 15px;
+}
+
+.form-send {
+    width: 95px;
+    height: 40px;
+    position: relative;
+    right: -310px;
+}
