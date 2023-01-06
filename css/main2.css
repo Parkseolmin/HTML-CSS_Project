@@ -1,9 +1,26 @@
+@font-face {
+    font-family: '이쁜폰트';
+    src: url(../font/NanumSquareR.woff);
+}
+
 html {
     line-height: 1.15;
 }
 
 body {
     margin: 0px;
+    font-family: '이쁜폰트';
+    /*    font-family: 'Roboto Condensed', sans-serif;*/
+}
+
+/*안티앨리어싱 작업*/
+p,
+h4,
+h3,
+h2,
+h1,
+span {
+    transform: rotate(0.03deg);
 }
 
 div {
