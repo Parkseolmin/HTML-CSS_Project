@@ -1,0 +1,44 @@
+*Flexbox 레이아웃 사용방법
+ex)
+html)
+<div class="flex-container">
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+</div>
+
+css)
+.flex-container {
+  display : flex;
+}
+.box {
+  width : 100px;
+  height : 100px;
+  background : grey;
+  margin : 5px;
+}
+
+-그냥 박스들을 감싸는 부모 요소에게 display:flex 사용
+그럼 박스들이 기본적으로 가로정렬로 배치됨
+
+*Flexbox 세부속성 사용
+.flex-container {
+  display : flex;
+  justify-content : center;  /* 좌우정렬 */
+  align-items : center;  /* 상하정렬 */
+  flex-direction : column; /* 세로정렬 */
+  flex-wrap : wrap;  /* 폭이 넘치는 요소 wrap 처리 */
+}
+.box {
+  flex-grow : 2;  /* 폭이 상대적으로 몇배인지 결정 */
+}
+
+*박스 좌측, 우측정렬 동시에 하는 법
+<div class="flex-container">
+  <div class="box"></div>
+  <div class="box" style="flex-grow : 1"></div>
+  <div class="box"></div>
+</div>
+
+첫<div>는 왼쪽, 마지막 <div>는 우측정렬을 하고 싶을 떄
+그건 가운데 임시 <div>하나 만들어주고
