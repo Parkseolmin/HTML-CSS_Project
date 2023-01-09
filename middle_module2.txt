@@ -42,3 +42,20 @@ css)
 
 첫<div>는 왼쪽, 마지막 <div>는 우측정렬을 하고 싶을 떄
 그건 가운데 임시 <div>하나 만들어주고
+flex-grow:1 이런 식으로 사이즈를 크게 키워주면 됨.
+그럼 나머지 요소들은 알아서 좌측 우측으로 퍼짐
+
+*align-content
+display:flex; 이걸 준 요소는 align-content 속성을 줄 수 있는데
+이러면 내부에 들어가있는 박스들의 상하정렬을 조절할 수 있다.
+align-content는 박스가 가로로 여러줄일 때 박스들의 상하배치를 조절할 수 있는 속성
+justify-content의 세로버전이라고 보면 됨.
+
+*중요!
+align-item 과 text-align 차이점
+
+-text-align
+span, a, label, image, text 등 각종 비 정형화/텍스트 객체에 적용
+
+-align-item
+div, table 등의 정형화 및 공간 객체에 적용 가능

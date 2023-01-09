@@ -259,16 +259,93 @@ p {
     right: -310px;
 }
 
-.flex-item {
-    width: 100px;
-    height: 70px;
-    background-color: grey;
-    text-align: center;
-    justify-content: center;
-    font-size: 30px;
+/*어려웠던 부분*/
+.nav-container {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding: 10px;
+    background-color: #FF7678;
 }
 
-.flex-container {
-    margin: 0;
-    display: flex;
+.nav-item {
+    margin-right: 10px;
+    color: aliceblue;
 }
+
+.logo {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.second {
+    font-size: 25px;
+
+}
+
+.test-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.test-container div {
+    margin-right: 10px;
+}
+
+.test-container div > h4,
+p {
+    color: black;
+}
+
+
+.product-container {
+    width: 100%;
+    /*    max-width: 1000px;*/
+    margin: 50px 0px 50px 0px;
+    /*
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+*/
+}
+
+.product-container div {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+/*1200px이하일 경우 클래스 적용*/
+@media screen and (max-width:992px) {
+    .test-container {
+        flex-wrap: wrap;
+    }
+
+    .test-container div {
+        width: 370px;
+        height: 120px;
+        text-align: center;
+        /*        align-items: center;*/
+    }
+
+    .product-container {
+        max-width: 100%;
+    }
+
+    .product-container div {
+        width: 50%;
+        float: left;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .product-container div {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:576px) {}
