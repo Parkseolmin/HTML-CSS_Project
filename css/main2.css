@@ -291,7 +291,7 @@ p {
 }
 
 .test-container div {
-    margin-right: 10px;
+    /*    margin-right: 10px;*/
 }
 
 .test-container div > h4,
@@ -336,14 +336,12 @@ p {
 
     .product-container div {
         width: 50%;
-        float: left;
     }
 
 }
 
 @media screen and (max-width:768px) {
     .product-container div {
-        float: none;
         width: 100%;
     }
 }
