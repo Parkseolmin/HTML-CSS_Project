@@ -1,0 +1,39 @@
+p,
+h4,
+h3,
+h2,
+h1,
+span {
+    transform: rotate(0.03deg);
+}
+
+.main-background {
+    height: 550px;
+    background: linear-gradient(#4A92D9, #4D64C2);
+    color: white;
+    padding: 20px;
+}
+
+.main-img {
+    /*    top: 75px;*/
+    /*    left: 400px;*/
+    /*    position: absolute;*/
+    display: flex;
+
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main-text {
+    float: left;
+    margin-top: 50px;
+}
+
+.main-iphone {
+    width: 400px;
+    float: right;
+    margin-top: 135px;
+}

@@ -364,6 +364,8 @@ p {
 .shop-bg {
     background-color: #eee;
     padding: 20px;
+    margin-top: 20px;
+    width: 100%;
 }
 
 .shop-container {
