@@ -1,0 +1,11 @@
+<div class="overlay-wrap">
+  <div class="overlay-black">
+    <span>$60</span>
+  </div>
+</div>
+<img src="img/product1.jpg">
+
+이미지 위에 투명한 div 박스(overlay-wrap)를 하나 마련해놓고
+그 안에 검은색용 div박스 (overlay-black)을 마련한다.
+이 경우 overlay-wrap에 마우스를 올리면
+안에 있는 overlay-black 박스를 위로 올려주세요~ 라고 코드를 짤 수 있기 때문이다.
